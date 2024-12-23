@@ -33,22 +33,7 @@ export const hardwareComponents: HardwareComponent[] = [
     imageUrl:
       "https://admin.techshopbd.com/uploads/product/Screenshot_9_20240825_132627.png"
   },
-  {
-    id: "esp8266-adapter",
-    name: "CH340 USB to ESP8266 Adapter",
-    category: "communication",
-    price: 195,
-    description:
-      "USB to WiFi module adapter for ESP8266 programming and communication.",
-    specifications: [
-      "CH340G USB to Serial converter",
-      "Compatible with ESP-01 modules",
-      "Auto-programming support",
-      "Built-in voltage regulator"
-    ],
-    imageUrl:
-      "https://leetechbd.com/wp-content/uploads/2018/01/CH340-USB-to-ESP8266-ESP-01-Wifi-Module-Adapter.jpg"
-  },
+  
   {
     id: "water-pump",
     name: "RS-360 Mini DC Water Pump",
@@ -124,21 +109,6 @@ export const hardwareComponents: HardwareComponent[] = [
     ],
     imageUrl:
       "https://store.roboticsbd.com/8441-large_default/5v-cooling-fan-40-x-40-x-7mm-robotics-bangladesh.jpg"
-  },
-  {
-    id: "esp8266",
-    name: "ESP8266 WiFi Module",
-    category: "communication",
-    price: 195,
-    description: "Wireless communication module for IoT connectivity.",
-    specifications: [
-      "802.11 b/g/n WiFi",
-      "Operating voltage: 3.3V",
-      "Built-in TCP/IP stack",
-      "UART interface"
-    ],
-    imageUrl:
-      "https://cdn.sparkfun.com/assets/parts/1/6/1/2/7/17146-WiFi_Module_-_ESP8266__4MB_-01.jpg"
   },
   {
     id: "power-adapter",
